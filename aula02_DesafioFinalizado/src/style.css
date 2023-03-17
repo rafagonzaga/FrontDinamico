@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+label {
+    display: inline-block;
+    width: 75px;
+}
+
+form label, form input {
+    margin: 2px;
+}
+
+form button {
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.info-titulo, .info-description, .buttons {
+    width: 280px;    
+}
+
+main {
+    border: 1px solid white;
+    width: 500px;
+    box-shadow: 10px 10px 20px 1px rgba(91, 55, 100, 0.2);
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-finished {
+    text-decoration: line-through;
+    color: rgb(170, 170, 170);
+}
