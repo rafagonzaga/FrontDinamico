@@ -1,0 +1,43 @@
+button[primary] {
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    background-color: var(--primary-color);
+    
+}
+
+button[primary]:disabled {
+    background-color: #c7c7c7;
+    cursor: default;
+}
+
+button[secondary] {
+    color: var(--primary-color);
+    border: 8px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+    position: relative;
+    background-color: #ffffff;
+    
+}
+
+button[tertiary] {
+    font-weight: 600;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    
+}

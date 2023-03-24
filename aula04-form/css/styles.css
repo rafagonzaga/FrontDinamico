@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form div {
+    position: relative;
+    margin: 16px 0;
+}
+
+.d-none {
+    display: none;
+
+}
+
+.d-block {
+    display: block;
+
+}
